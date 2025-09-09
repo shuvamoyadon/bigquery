@@ -1,0 +1,11 @@
+{
+    "schedule_interval": "@daily",
+    "start_date": "2023-01-01",
+    "source_project": "your-source-project",
+    "source_dataset": "source_dataset",
+    "source_table": "source_table",
+    "target_project": "your-target-project",
+    "target_dataset": "target_dataset",
+    "target_table": "target_table",
+    "sql_file": "example_transform.sql"
+}
