@@ -30,8 +30,7 @@ with DAG(
     dag_id="plss_test_python_op",
     start_date=datetime(2025, 10, 23),
     schedule=None,
-    catchup=False,
-    tags=["bigquery","etl","example"],
+    catchup=False
 ) as dag:
     copy_task = PythonOperator(
         task_id="copy_bq_with_python",
